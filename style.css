@@ -1,0 +1,52 @@
+/* Set the font family to 'Plus Jakarta Sans' from google fonts and set it to a weight of 700 */
+html {
+    font-family: "Plus Jakarta Sans", Arial, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: rgb(31, 253, 31);
+    line-height: 32px;
+}
+
+/* This wil set the font weight for <p>, <li> and <td> elements in one css rule */
+p, li, td {
+    font-weight: 300;
+}
+
+/* Remove underline from anchors */
+a {
+    text-decoration: none;
+    color: rgb(154, 255, 175);
+}
+
+/* Add an underline when hovering anchors */
+a:hover {
+    text-decoration: underline;
+}
+
+/* h1, center align */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px rgb(31, 253, 31, 0.7);
+}
+
+/* h2, set them all to uppercase */
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/* For all table head elements */
+/* Sets font size to be 1.3 times html's font size */
+th {
+    font-size: 1.2rem;
+    text-decoration: dotted underline rgb(255, 255, 255);
+}
+
+/* This will set contact info in the top to center */
+.contact {
+    text-align: center;
+}

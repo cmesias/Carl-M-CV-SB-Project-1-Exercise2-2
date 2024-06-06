@@ -1,0 +1,20 @@
+Remove underline from hyperlinks
+- https://kb.blackbaud.com/knowledgebase/Article/103613
+
+videos in html
+- https://www.w3schools.com/html/html_youtube.asp
+
+How to clear a text field
+- https://www.geeksforgeeks.org/html-clearing-the-input-field/
+
+My clear button keeps refreshing my page instead if just clearing my input:
+- https://stackoverflow.com/questions/35725859/why-do-my-html-buttons-refresh-the-page-why-cant-i-get-my-new-html-dom-element
+
+Example form action:
+- https://www.w3schools.com/tags/att_form_action.asp
+
+Emoji Entities
+- https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm
+
+Free emaill API from Migs
+- https://web3forms.com/
