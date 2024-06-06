@@ -14,12 +14,13 @@
     
     <!-- Contact Info -->
     <header>
-      <section id="about-me">
-        <div id="container-picture">
+      <!-- <section class="about-me"> -->
+      <section class="sections">
+        <div class="container-picture">
           <img src="https://raw.githubusercontent.com/cmesias/SB-Project-1/main/me.JPG" alt="photo of myself" height="350">
         </div>
         <h1>Carl M</h1>
-        <div id="contact">
+        <div class="contact">
           <p><b>Email</b>: <a href="#"><b>cxxxxxxxxx@gmail.com</b></a></p>
           <p><b>Phone</b>: (xxx) xxx - xxxx</p>
           <p><b>Website</b>: <a href="https://github.com/cmesias/Carl-M-CV-SB-Project-1-Exercise2-2"><b>repo</b></a></p>
@@ -189,27 +190,27 @@
         <form action="#" method="get">
           <!-- Name -->
           <label for="name">Name: </label>
-          <input type="text" name="name" id="name" placeholder="Jean Doe" required>
+          <input class="form-text" type="text" name="name" id="name" placeholder="Jean Doe" required>
           <br>
 
           <!-- Email -->
           <label for="email">Email: </label>
-          <input type="text" name="email" id="email" placeholder="JeanDoe@gmail.com" required>
+          <input class="form-text" type="text" name="email" id="email" placeholder="JeanDoe@gmail.com" required>
           <br>
 
           <!-- Organization -->
           <label for="organization">Organization: </label>
-          <input type="text" name="organization" id="organization" placeholder="Amazon" required>
+          <input class="form-text" type="text" name="organization" id="organization" placeholder="Amazon" required>
           <br>
 
           <!-- Role -->
           <label for="role">Role: </label>
-          <input type="text" name="role" id="role" placeholder="Software Engineer" required>
+          <input class="form-text" type="text" name="role" id="role" placeholder="Software Engineer" required>
           <br>
 
           <!-- Reason for Contact -->
           <label for="reason">Reason for contact: </label>
-          <select name="reason" id="reason" required>
+          <select class="form-text" name="reason" id="reason" required>
             <option value="">--Choose a reason--</option>
             <option value="intern">Internship Offer</option>
             <option value="job">Job Offer</option>
@@ -218,7 +219,7 @@
           </select>
           
           <!-- Checkbox Question -->
-          <div id="checkbox-questions">
+          <div class="checkbox-questions">
             <p>What time of the day do you code best?</p>
 
             <!-- Checkbox: Early Bird-->
@@ -240,7 +241,7 @@
           <!-- Message -->
           <p>Message:</p>
           <label for="msg"></label>
-          <textarea placeholder="I would like to connect about creating a mobile game about hotdogs!" 
+          <textarea class="form-text" placeholder="I would like to connect about creating a mobile game about hotdogs!" 
                     name="msg" id="msg" 
                     cols="100" rows="10"
                     minlength="5"
@@ -266,7 +267,7 @@
       </section>
 
       <!-- Socials -->
-      <section id="socials">
+      <section class="socials">
         <h2>Socials</h2>
         <p>Find my socials below, would love to connect!</p>
         <!-- Social Links -->

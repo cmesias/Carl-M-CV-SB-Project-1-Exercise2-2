@@ -39,7 +39,7 @@ a {
 } */
 
 /* This will make an oval shaped border around my image */
-#container-picture > img {
+.container-picture > img {
     border-radius: 50% / 50%;
     border: rgb(255, 255, 255) 2px solid;
 
@@ -49,7 +49,7 @@ a {
 }
 
 /* This will make an oval shaped border around my image */
-#container-picture > img:hover {
+.container-picture > img:hover {
     border-radius: 5% / 5%;
 }
 
@@ -81,7 +81,7 @@ h1:hover {
 }
 
 /* Set contact <p> elements margin & font-size */
-#contact > p {
+.contact > p {
     font-size: 1rem;
     transition-duration: 0.4s;
     
@@ -91,7 +91,7 @@ h1:hover {
 }
 
 /* Add hover effects for contact <p> elements */
-#contact > p:hover {
+.contact > p:hover {
     font-size: 2rem;
 }
 
@@ -113,7 +113,7 @@ th {
 }
 
 /* This will implement the css box-model such as margin, padding & border into each section */
-#about-me, .sections {
+.sections {
     /* Add a border below each section */
     border-bottom: green 5px solid;
     padding-top: 32px;
@@ -121,15 +121,14 @@ th {
 }
 
 /****************** Adjusted form below to capture the same look and feel of example ******************/
-/******************                Removed outlines from form elements                *****************/
 
-/* Adds padding on the left side of the checkbiox questions */
-#checkbox-questions {
+/* Adds padding on the left side of the checkbox questions */
+.checkbox-questions {
     padding-left: 32px;
 }
 
 /* Removes margins */
-#checkbox-questions > p {
+.checkbox-questions > p {
     margin: 0;
 }
 
@@ -144,6 +143,11 @@ button {
 
     color: rgb(31, 253, 31);
     padding: 10px;
+}
+
+/* Remove outlines on all decendants of form element */
+form * {
+    outline: none;
 }
 
 /* Add css stylng to buttons on hover */
@@ -161,19 +165,20 @@ button:active {
 }
 
 /* Set a dotted border around our textarea, inputs that have type text and our select element */
-textarea, input[type="text"], select[name="reason"] {
+.form-text {
     background-color: rgba(19, 19, 19);
     border: rgb(31, 253, 31), 1px dotted;
     color: rgb(31, 253, 31);
+    margin-left: 6px;
 }
 
-/* Set textarea and input type texts placeholder text color to half transparent */
+/* Set textarea & input placeholder text color to half transparent */
 textarea::placeholder, input::placeholder {
     color: rgb(31, 253, 31, 0.4);
 }
 
 /* Add padding-bottom to socials section */
-#socials {
+.socials {
     padding-bottom: 96px;
 }
 
