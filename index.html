@@ -14,24 +14,28 @@
     
     <!-- Contact Info -->
     <header>
-      <img src="https://raw.githubusercontent.com/cmesias/SB-Project-1/main/me.JPG" alt="photo of myself" height="350">
-      <h1>Carl M</h1>
-      <div class="contact">
-        <p><b>Email</b>: <a href="#"><b>cxxxxxxxxx@gmail.com</b></a></p>
-        <p><b>Phone</b>: (xxx) xxx - xxxx</p>
-        <p><b>Website</b>: <a href="https://github.com/cmesias/Carl-M-CV-SB-Project-1-Exercise2-1"><b>repo</b></a></p>
-      </div>
+      <section id="about-me">
+        <div id="container-picture">
+          <img src="https://raw.githubusercontent.com/cmesias/SB-Project-1/main/me.JPG" alt="photo of myself" height="350">
+        </div>
+        <h1>Carl M</h1>
+        <div id="contact">
+          <p><b>Email</b>: <a href="#"><b>cxxxxxxxxx@gmail.com</b></a></p>
+          <p><b>Phone</b>: (xxx) xxx - xxxx</p>
+          <p><b>Website</b>: <a href="https://github.com/cmesias/Carl-M-CV-SB-Project-1-Exercise2-2"><b>repo</b></a></p>
+        </div>
+      </section>
     </header>
 
     <main>
-      
-      <!-- About Me -->
-      <section>
-        <!-- Summary -->
+      <!-- Summary -->
+      <section class="sections">
         <h2>Summary</h2>
         <p>Motivated and aspiring software developer with a talent for solving complex problems and automating repetative tasks. Self-taught desktop and mobile game developer using languages C++, C#, JavaScript, and game engine technologies such as Unity, Unreal Engine and Gamemaker. Currently, studying web development at Springboard's Software Engineering Career course! Looking forward to my software journey, and one day get into the software industry and gaming industry!</p>
-        
-        <!-- Education -->
+      </section>
+
+      <!-- Education -->
+      <section class="sections">
         <h2>Education</h2>
         <ul>
           <li>
@@ -44,29 +48,36 @@
             <p><b>Chaffey College</b> - Computer Science (Not completed, 2013 - 2015)</p></p>
           </li>
         </ul>
+      </section>  
 
+      <!-- Technologies -->
+      <section class="sections">
+        <h2>Technologies</h2>
         <!-- Web Development -->
-        <h2>Web Development</h2>
-        <ul>
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-        </ul>
+        <div>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>  
 
         <!-- Game Development -->
-        <h2>Game Development</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>C/C++</li>
-          <li>SDL2 Graphics Library</li>
-          <li>Gamemaker Studio 2</li>
-          <li>Unity</li>
-          <li>Unreal Engine 5</li>
-        </ul>
+        <div>
+          <h3>Game Development</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>C/C++</li>
+            <li>SDL2 Graphics Library</li>
+            <li>Gamemaker Studio 2</li>
+            <li>Unity</li>
+            <li>Unreal Engine 5</li>
+          </ul>
+        </div>
       </section>
-      <hr>
 
       <!-- Tables (Tools) -->
-      <section>
+      <section class="sections">
         <h2>Tools</h2>
         <!-- Table -->
         <table>
@@ -108,7 +119,7 @@
       </section>
 
       <!-- Achievements -->
-      <section>
+      <section class="sections">
         <h2>Achievements</h2>
         <ol>
           <li>
@@ -124,8 +135,8 @@
       </section>
 
       <!-- Projects -->
-      <section>
-      <h2>Projects</h2>
+      <section class="sections">
+        <h2>Projects</h2>
 
         <!-- Asteroids Clone -->
         <h3><a href="https://cmesias.itch.io/asteroids"><b>Asteroids Clone</b></a></h3>
@@ -161,18 +172,17 @@
         <!-- Image link -->
         <img src="https://user-images.githubusercontent.com/17791454/233032898-d74c7a73-d6b9-479d-b334-b7595be32d3a.png" alt="screenshot of the 2d game template" width="300" height="180">
 
+        <!-- Little message -->
+        <P><i>I will update my latest projects here as I progress through Springboard and beyond!</i></P>
+
       </section>
-      <hr>
 
     </main>
 
     <!-- Footer -->
     <footer>
-      <!-- Little message -->
-      <P><i>I will update my latest projects here as I progress through Springboard and beyond!</i></P>
-
       <!-- Contact Me Form -->
-      <section>
+      <section class="sections">
         <!-- We made input for name, email and message required, and the message has a min and max length -->
         <!-- Recommended to add a '#' to the form action to simulate a form submission -->
         <h2>Contact Me</h2>
@@ -208,25 +218,27 @@
           </select>
           
           <!-- Checkbox Question -->
-          <p>What time of the day do you code best?</p>
+          <div id="checkbox-questions">
+            <p>What time of the day do you code best?</p>
 
-          <!-- Checkbox: Early Bird-->
-          <input type="checkbox" name="early-bird" id="early-bird">
-          <label for="early-bird">Early Bird &#x1F426;</label>
-          <br>
+            <!-- Checkbox: Early Bird-->
+            <input type="checkbox" name="early-bird" id="early-bird">
+            <label for="early-bird">Early Bird &#x1F426;</label>
+            <br>
 
-          <!-- Checkbox: Noon Bird-->
-          <input type="checkbox" name="noon-bird" id="noon-bird">
-          <label for="noon-bird">Noon Bird &#x1F985;</label>  
-          <br>
-          
-          <!-- Checkbox: Night Owl-->
-          <input type="checkbox" name="night-bird" id="night-bird">
-          <label for="night-bird">Night Owl &#x1F989;</label>  
-          <br>
+            <!-- Checkbox: Noon Bird-->
+            <input type="checkbox" name="noon-bird" id="noon-bird">
+            <label for="noon-bird">Noon Bird &#x1F985;</label>  
+            <br>
+            
+            <!-- Checkbox: Night Owl-->
+            <input type="checkbox" name="night-bird" id="night-bird">
+            <label for="night-bird">Night Owl &#x1F989;</label>  
+            <br>
+          </div>
 
           <!-- Message -->
-          <p>Message</p>
+          <p>Message:</p>
           <label for="msg"></label>
           <textarea placeholder="I would like to connect about creating a mobile game about hotdogs!" 
                     name="msg" id="msg" 
@@ -254,25 +266,25 @@
       </section>
 
       <!-- Socials -->
-      <section>
-      <h2>Socials</h2>
-      <p>Find my socials below, would love to connect!</p>
-      <!-- Social Links -->
-      <nav>
-        <ul>
-          <li>
-            <a href="https://www.github.com/cmesias">Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/cmesias/">Linkdin</a>
-          </li>
-          <li>
-            <a href="https://cmesias.itch.io">Itch.io (Game Development)</a>
-          </li>
-        </ul>
-      </nav>
-      <p>Learn more about my journey with <a href="https://www.springboard.com/workshops/software-development-career-program/learn#/dashboard">Springboard</a>.</p>
-    </section>
+      <section id="socials">
+        <h2>Socials</h2>
+        <p>Find my socials below, would love to connect!</p>
+        <!-- Social Links -->
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www.github.com/cmesias">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/cmesias/">Linkdin</a>
+            </li>
+            <li>
+              <a href="https://cmesias.itch.io">Itch.io (Game Development)</a>
+            </li>
+          </ul>
+        </nav>
+        <p>Learn more about my journey with <a href="https://www.springboard.com/workshops/software-development-career-program/learn#/dashboard">Springboard</a>.</p>
+      </section>
     </footer>
 
     <script>

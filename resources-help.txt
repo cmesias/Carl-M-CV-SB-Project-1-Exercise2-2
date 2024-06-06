@@ -18,3 +18,42 @@ Emoji Entities
 
 Free emaill API from Migs
 - https://web3forms.com/
+
+Cool button styling
+- https://www.w3schools.com/css/css3_buttons.asp
+- https://www.w3schools.com/howto/howto_css_animate_buttons.asp
+
+How to increase font size without moving other elements:
+- https://stackoverflow.com/questions/14277153/change-font-size-on-hover-move-other-divs
+- or just do this:
+        *    /* h1, center align */
+        *    h1 {
+        *        font-size: 3rem;
+        *        text-align: center;
+        *        text-shadow: 5px 5px 10px rgb(31, 253, 31, 0.7);
+        *        transition-duration: 0.4s;
+        *        
+        *        /* This is how to prevent elements below it from moving */
+        *        margin-top: 0px;
+        *        margin-bottom: 0px;
+        *    }
+        *
+        *    h1:hover {
+        *        font-size: 6rem;
+        *    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
